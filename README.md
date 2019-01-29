@@ -10,7 +10,7 @@ mkdir /opt/CentOS7.5-Mini-Rocky
 下载rpm包
 
 ```
-yum install  `cat rpm-list `    --downloadonly  --downloaddir=/opt/CentOS7.5-Mini-Rocky
+yum install  `cat ./auto-install-rocky-local-repo/rpm-list `    --downloadonly  --downloaddir=/opt/CentOS7.5-Mini-Rocky
 ```
 
 
